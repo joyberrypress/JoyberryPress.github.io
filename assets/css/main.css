@@ -2286,6 +2286,7 @@
         .image.blog{
             width: 150px;
             height: 150px;
+            display: block;
         }
 
 		.image.fit {
