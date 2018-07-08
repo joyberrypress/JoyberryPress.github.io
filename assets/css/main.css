@@ -1934,6 +1934,7 @@
     -webkit-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
+    align-content: center;
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
