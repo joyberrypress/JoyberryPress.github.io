@@ -2239,6 +2239,14 @@
 
 /* Image */
 
+    .blog-left{
+        float: left;
+    }
+
+    .blog-left{
+        float: right;
+    }
+
 	.image {
 		border-radius: 0;
 		border: 0;
