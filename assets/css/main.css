@@ -2253,7 +2253,7 @@
 
 	.image {
 		border-radius: 0;
-		border: 0;
+		border: none;
 		display: inline-block;
 		position: relative;
 	}
