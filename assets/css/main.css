@@ -2301,11 +2301,12 @@
 			width: 70%;
             margin-left: auto;
             margin-right: auto;
-            border-right: 0 px
+            border-right: 0 px;
 		}
 
 			.image.fit img {
 				width: 100%;
+                border-right: 0 px;
 			}
 
 		.image.main {
