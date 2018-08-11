@@ -2261,6 +2261,7 @@
 		.image img {
 			border-radius: 0;
 			display: block;
+            border: none;
 		}
 
 		.image.left, .image.right {
@@ -2301,10 +2302,12 @@
 			width: 70%;
             margin-left: auto;
             margin-right: auto;
+            border-right: none;
 		}
 
 			.image.fit img {
 				width: 100%;
+                border: none;
 			}
 
 		.image.main {
@@ -2950,8 +2953,7 @@
 		}
 
 			#banner .flex div {
-				border-right: 2px solid rgba(255, 255, 255, 0.2);
-				padding: 0 8em;
+
 			}
 
 				#banner .flex div:last-child {
@@ -2960,7 +2962,7 @@
 				}
 
 				#banner .flex div:first-child {
-					padding-left: 0;
+					
 				}
 
 				#banner .flex div p {
@@ -2975,39 +2977,7 @@
 
 		}
 
-		@media screen and (max-width: 1680px) {
-
-			#banner .flex div {
-				padding: 0 6em;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			#banner {
-				padding: 7em 0 6em 0;
-			}
-
-				#banner .inner {
-					padding-top: 6em;
-				}
-
-				#banner h1 {
-					font-size: 3em;
-				}
-
-				#banner h3 {
-					font-size: 1.25em;
-				}
-
-				#banner .flex div {
-					padding: 0 3em;
-				}
-
-		}
-
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 3500px) {
 
 			#banner {
 				background-attachment: scroll;
