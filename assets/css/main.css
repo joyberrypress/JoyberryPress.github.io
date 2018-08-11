@@ -2329,6 +2329,10 @@
         text-align:center
     }
 
+    .div-blog p{
+        width: 80%;
+    }
+
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
