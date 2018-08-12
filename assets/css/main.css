@@ -3009,6 +3009,32 @@
 
 		}
 
+        @media screen and (max-width: 950px) {
+            
+            #banner {
+                background-attachment: scroll;
+                padding: 5em 0 4em 0;
+            }
+            
+            #banner .inner {
+                padding-top: 4em;
+            }
+            
+            #banner h1 {
+                font-size: 2.5em;
+            }
+            
+            #banner h3 {
+                font-size: 1.25em;
+            }
+            
+            #banner .flex div {
+                font-size: .65em;
+                padding: 0 1em;
+            }
+            
+        }
+
 		@media screen and (max-width: 736px) {
 
 			#banner {
