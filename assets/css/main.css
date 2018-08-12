@@ -2926,14 +2926,14 @@
 			font-weight: 400;
 			color: #fff;
 			line-height: 1em;
-			margin: 0 0 1em 0;
+			margin: 0 0 0em 0;
 			padding: 0;
 		}
 
 		#banner h3 {
 			font-weight: 400;
 			color: #fff;
-			margin: 0;
+			margin: 0 0 1em 0;
 			font-size: 1.5em;
 		}
 
